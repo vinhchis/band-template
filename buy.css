@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+/*HEADER*/
+
+header nav li{
+    display: inline;
+}
+
+header nav{
+    width: 100%;
+    background-color: #000;
+    height: 45px;
+    line-height: 45px;
+    position: fixed;
+}
+
+header nav li a{
+    padding: 12px 16px;
+    font-size: 17px;
+    margin: -3px;
+    text-transform: uppercase;
+}
+header nav li a:visited, header nav li a:link{
+    color: #fff;
+    text-decoration: none;
+}
+
+#search{
+    float: right;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+header nav li a:hover{
+    background: #ccc;
+    color: #222;
+}
+
+#search:hover{
+    background: #fc2122;
+    color: #fff;
+}
+/*CENTER PANEL*/
+
+#ticket-sell{
+    background: #000;
+    display: inline-block;
+    width: 100%;
+    padding: 100px 0;
+}
+
+#tickets-content{
+    width: 65%;
+    margin: 0 auto;
+    background: #fff;
+    color: #222;
+}
+
+#tickets-content>h1{
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    background: #009688;
+    color: #fff;
+    padding: 32px 0;
+}
+
+#tickets-content form>label{
+    display: block;
+    padding: 10px 10px;
+    text-transform: capitalize;
+}
+
+#tickets-content form>input[type="email"], #tickets-content form>input[type="number"]{
+    display: block;
+    margin: 0 10px;
+    width: 95%;
+    height: 35px;
+    font-family: "comic sans ms";
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0 10px;
+    border: solid 1px #ccc;
+}
+
+#tickets-content form>input[type="submit"]{
+    margin: 15px 10px;
+    width: 97.4%;
+    padding: 16px 0;
+    background: #009688;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 4px;
+    border: solid 1px #ccc;
+}
+
+#tickets-content form>input[type="submit"]:hover, #tickets-content>input[type="button"]:hover{
+    background: #ccc;
+    color: #222;
+    border: solid 1px #aaa;
+    cursor: pointer;
+}
+
+#tickets-content>input[type="button"]{
+    margin: 20px 10px;
+    width: 10%;
+    padding: 10px;
+    border: solid 1px #ccc;
+    background: #f44336;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#tickets-content>small{
+    margin-left: 75%;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+#tickets-content>small a:link, #tickets-content>small a:visited{
+    color: #2196F3;
+    text-transform: lowercase;
+}
+
+/*MAP*/
+.mapGoogle{
+    width: 100%;
+    height: 400px;
+}
+
+#map{
+    display: inline-block;
+    margin: 0px auto 0;
+    background: url('images/map.png');
+}
+
+/*FOOTER*/
+
+footer #social-images{
+    display: block;
+    width: 215px;
+    margin: 20px auto 0;
+}
+
+.image{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+#fb{
+    background: url('images/social-icons/fb.png');
+}
+#twitter{
+    background: url('images/social-icons/twitter.png');
+}
+#insta{
+    background: url('images/social-icons/insta.png');
+}
+#snapchat{
+    background: url('images/social-icons/snapchat.png');
+}
+#linkedin{
+    background: url('images/social-icons/linkedin.png');
+}
+#gplus{
+    background: url('images/social-icons/G+.png');
+}
+
+footer>span{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: #909090;
+}

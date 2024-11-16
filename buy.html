@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Buy Ticket</title>
+    <link rel="stylesheet" href="buy.css"> </head>
+    <!--[if IE]>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <![endif]-->
+<body>
+<!--Main Header-->
+    <header class = "clearfix">
+        <nav>
+            <li><a href="">home</a></li>
+            <li><a href="">band</a></li>
+            <li><a href="">tour</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">more</a></li>
+            <li><a href="" id = "search">search</a></li>
+        </nav>
+    </header>
+    <!--Main Header End-->
+    <div id = "ticket-sell">
+        <div id = "tickets-content">
+        <h1>Tickets</h1>
+        <form>
+            <label for="number-of-tickets">Tickets, $15 per person</label>
+            <input type="number" id = "number-of-tickets" placeholder="How Many?" min="1" max="10" step = "1">
+            <label for="email-id">send to</label>
+            <input type="email" id = "email-id" placeholder="Enter Email">
+            <input type="submit" value="pay &check;"> 
+        </form>
+        <input type="button" value="close &cross;">
+        <small>need <a href="">help?</a></small>
+        </div>
+    </div>
+    <!--Map Start-->
+    <div id = "map" class = "mapGoogle">
+    </div>
+    <!--Map End-->
+    <!--Footer Start-->
+    <footer>
+       <div id="social-images" class = "clearfix">
+           <span id = "fb" class = "image"></span>
+           <span id = "insta" class = "image"></span>
+           <span id = "snapchat" class = "image"></span>
+           <span id = "gplus" class = "image"></span>
+           <span id = "twitter" class = "image"></span>
+           <span id = "linkedin" class = "image"></span>
+       </div>
+       <span>
+           Made with &hearts; By &#45; Dhiren Chotwani
+       </span>
+    </footer>
+    <!--Footer End-->
+    </body>
+
+</html>

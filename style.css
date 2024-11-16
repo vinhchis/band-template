@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+/*HEADER*/
+
+header nav li{
+    display: inline;
+}
+
+header nav{
+    width: 100%;
+    background-color: #000;
+    height: 45px;
+    line-height: 45px;
+    position: fixed;
+}
+
+header nav li a{
+    padding: 12px 16px;
+    font-size: 17px;
+    margin: -3px;
+    text-transform: uppercase;
+}
+header nav li a:visited, header nav li a:link{
+    color: #fff;
+    text-decoration: none;
+}
+
+#search{
+    float: right;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+header nav li a:hover{
+    background: #ccc;
+    color: #222;
+}
+
+#search:hover{
+    background: #fc2122;
+    color: #fff;
+}
+
+/*IMAGE CONTAINER*/
+
+#image-container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#image-container>img{
+    width: 100%;
+    height: 730px;
+}
+
+#image-container>h3{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin-top: -150px;
+    line-height: 50px;
+}
+
+#image-container>h3 small{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*ABOUT BAND*/
+
+#about-band{
+    margin: 100px auto;
+    text-align: center;
+    width: 60%;
+    padding: 15px;
+}
+
+#about-band>p{
+    width: 100%;
+    padding: 10px;
+    text-align: justify;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+#about-band>h1 strong{
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#about-band em{
+    display: block;
+    margin: 10px;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #afaaaf;
+}
+
+
+#about-band #band-members section{
+    display: inline-block;
+    padding: 50px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+#about-band #band-members section>figure>figcaption{
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+/*TOUR INFORMATION*/
+
+#ticket-info{
+    background: #000;
+    color: #fff;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+#ticket-info>h3{
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+#ticket-info>small{
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: -5px;
+    font-size: 0.9em;
+    color: #a2a2a2;
+}
+
+#ticket-info>ul{
+    width:770px;
+    margin: 40px auto;
+}
+#ticket-info>ul li{
+    width: 770px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    color: #757575;
+    background: #fff;
+    text-transform: capitalize;
+    padding: 0 15px;
+    border-bottom: solid 1px #ddd;
+}
+
+#ticket-info>ul li small{
+    width: 70px;
+    margin-left: 15px;
+    background: #f44336;
+    padding: 4px 10px; 
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#ticket-info>ul li small#remaining-tickets{
+    float: right;
+    margin: 7px;
+    padding: 0;
+    width: 30px;
+    background: #000;
+    height: 30px;
+    line-height: 30px;
+/* border-radius: 50%;*/
+}
+
+#sell-tickets{
+    width: 800px;
+    margin: 15px 0 0 290px;
+}
+
+#sell-tickets section{
+    width: 245px;
+    height: 380px;
+    display: inline-block;
+    background: #fff;
+    color: #000;
+}
+
+#third-tickets, #second-tickets{
+    margin-left: 27px;
+}
+
+#sell-tickets section figcaption, #sell-tickets section time, #sell-tickets section p{
+    text-transform: capitalize;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+#sell-tickets section figcaption{
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#sell-tickets section time{
+    color: #5f555f;
+}
+
+#sell-tickets section p{
+    margin-top: 10px;
+    font-size: 15px;
+    width: 80%;
+    text-align: justify;
+}
+
+#sell-tickets section a{
+    margin-left: 15px;
+    background: #000;
+    padding: 7px 20px 7px;
+    text-transform: capitalize;
+}
+
+#sell-tickets section a:link, #sell-tickets section a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+#sell-tickets section a:hover{
+    background: #ccc;
+    color: #222;
+}
+
+/*CONTACT US*/
+
+#contact-us{
+    text-align: center;
+}
+
+#contact-us>h3{
+    margin-top: 70px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+#contact-us>small{
+    display: block;
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 15px;
+    color: #777;
+}
+#our-info li{
+    display: block;
+    padding: 10px 0 0;
+}
+
+#our-info{
+    display: block;
+    width: 190px;
+    margin-top: 35px;
+    margin-left: 300px;
+    float: left;
+    text-align: left;
+    font-size: 18px;
+}
+
+#contact-form{
+    width: 415px;
+    float: left;
+    margin: 45px 200px 0;
+} 
+
+input[type="email"], input[type="text"]{
+    display: inline;
+    width: 180px;
+    height: 30px;
+    padding: 5px 10px;
+    border: solid 1px #ccc;
+}
+
+#message-box{
+    display: block;
+    width: 387px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+input[type="submit"]{
+    display: block;
+    float: right;
+    width: 70px;
+    height: 35px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background: #ccc;
+    color: #222;
+    cursor: pointer;
+}
+
+/*MAP*/
+.mapGoogle{
+    width: 100%;
+    height: 400px;
+}
+
+#map{
+    display: inline-block;
+    margin: 30px auto 0;
+    background: url('images/map.png');
+}
+
+/*FOOTER*/
+
+footer #social-images{
+    display: block;
+    width: 215px;
+    margin: 20px auto 0;
+}
+
+.image{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+#fb{
+    background: url('images/social-icons/fb.png');
+}
+#twitter{
+    background: url('images/social-icons/twitter.png');
+}
+#insta{
+    background: url('images/social-icons/insta.png');
+}
+#snapchat{
+    background: url('images/social-icons/snapchat.png');
+}
+#linkedin{
+    background: url('images/social-icons/linkedin.png');
+}
+#gplus{
+    background: url('images/social-icons/G+.png');
+}
+
+footer>span{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: #909090;
+}
+
+/*ClearFix the class*/
+.clearfix:after{
+    content: ' ';
+    display: inline;
+    clear: both;
+}
